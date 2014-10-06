@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @hairstyle.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @hairstyle.description %>
+</p>
+
+<%= link_to 'Edit', edit_hairstyle_path(@hairstyle) %> |
+<%= link_to 'Back', hairstyles_path %>
